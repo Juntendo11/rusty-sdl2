@@ -4,6 +4,9 @@ use crate::winsdl::Winsdl;
 
 mod winsdl;
 
+mod object;
+use object::*;
+
 fn main() {
     println!("Hello, world!");
     let mut winsdl = Winsdl::new(800,600).unwrap();
